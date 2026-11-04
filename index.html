@@ -6,16 +6,16 @@
 <meta name="description" content="PRO4 Consultores: legal, marketing, estrategia, contabilidad, finanzas y talento humano en un solo aliado.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap">
 <style>
 /* Layout: one full-screen slide at a time, alternating PRO4 navy and paper grounds; a fixed control bar at the bottom. Single brand look by design. */
 :root{
-  --navy:#1E2736; --navy-deep:#161C29; --navy-card:#263142; --ink:#222A37;
+  --navy:#292F3A; --navy-deep:#292F3A; --navy-card:#353C49; --ink:#292F3A;
   --paper:#F3F6FA; --card:#FCFDFE; --line:#DCE4EE;
-  --blue:#1A8FE8; --blue-deep:#0A6CC2; --cyan:#3DB9F5;
-  --muted:#4A5668; --muted-dark:#B9C6D7;
+  --blue:#2985E2; --blue-deep:#2985E2; --cyan:#00B1F1;
+  --muted:#545961; --muted-dark:#D4D5D8;
   --display:'Exo 2', 'Trebuchet MS', Arial, sans-serif;
-  --body:'DM Sans', 'Segoe UI', Arial, sans-serif;
+  --body:'Exo 2', 'Segoe UI', Arial, sans-serif;
   --radius:18px;
   color-scheme:light;
 }
@@ -66,7 +66,7 @@ svg.i{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke
 
 /* Cover */
 #inicio .lead{white-space:pre-line}
-#inicio{background:radial-gradient(ellipse at 80% 30%, #1F4C7A 0%, var(--navy) 55%, var(--navy-deep) 100%)}
+#inicio{background:radial-gradient(ellipse at 80% 30%, #545961 0%, var(--navy) 60%, var(--navy-deep) 100%)}
 .cover-mark{position:absolute;right:max(24px,5vw);top:50%;transform:translateY(-50%);width:min(46vw,620px);opacity:.16;pointer-events:none}
 .cover-logo{width:min(560px,82vw);height:auto}
 .tagline{font-family:var(--display);font-weight:300;font-size:clamp(1.3rem,2.6vw,2.1rem);letter-spacing:.32em;text-transform:uppercase;color:#E8F1FA}
@@ -94,14 +94,14 @@ body.editing .page-menu{top:calc(84px + env(safe-area-inset-top, 0px))}
 /* Quiénes */
 .split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,4vw,64px);align-items:center}
 .photo-wrap{position:relative;display:flex;justify-content:center;align-items:flex-end;min-height:320px}
-.photo-wrap::before{content:"";position:absolute;width:100%;aspect-ratio:1;max-width:100%;border-radius:50%;background:linear-gradient(150deg,var(--cyan),#1B5FC0);bottom:14%}
+.photo-wrap::before{content:"";position:absolute;width:100%;aspect-ratio:1;max-width:100%;border-radius:50%;background:linear-gradient(150deg,var(--cyan),#2985E2);bottom:14%}
 .photo-wrap::before{z-index:0}
 .photo-wrap img{position:relative;z-index:1;width:100%;max-width:600px;height:auto}
 .photo-wrap::after{content:"";position:absolute;z-index:2;left:-4%;right:-4%;bottom:-1px;height:36%;background:linear-gradient(180deg,rgba(243,246,250,0) 0%,rgba(243,246,250,.85) 60%,var(--paper) 92%);pointer-events:none}
 .svc-col{display:flex;flex-direction:column;gap:18px;min-width:0}
 
 /* Cifras */
-#cifras{background:linear-gradient(120deg,#0A7FC4 0%,#1B5FC0 100%);color:#F7FAFD}
+#cifras{background:linear-gradient(120deg,#2985E2 0%,#2373C4 100%);color:#F7FAFD}
 #cifras .eyebrow{color:#D6ECFB}
 .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(16px,3vw,40px)}
 .stat{border-top:2px solid rgba(214,236,251,.6);padding-top:18px;display:flex;flex-direction:column;gap:6px}
